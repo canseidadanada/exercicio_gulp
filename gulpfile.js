@@ -13,7 +13,7 @@ function jsCompressor() {
 }
 
 function sassCompiler() {
-    return gulp.src('./source/styles/main.scss')
+    return gulp.src('./source/styles/styles.scss')
         .pipe(sourcemaps.init())
         .pipe(sass({
             outputStyle: 'compressed'
